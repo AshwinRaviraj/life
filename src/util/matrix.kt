@@ -18,35 +18,6 @@ public fun <T> Matrix<T>.traverseLines(f: (x: Int, y: Int, value: T) -> Unit) {
     }
 }
 
-object NonMutableMatrix{
-
-
-    fun test(){}
-    fun test1(){}
-    fun test2(){}
-    fun test3(){}
-    fun test4(){}
-    fun test5(){}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
 public interface MutableMatrix<T> : Matrix<T> {
     operator fun set(x: Int, y: Int, value: T)
 }
@@ -107,3 +78,15 @@ public fun <T> MutableMatrix<T>.copyFrom(m: Matrix<T>) {
 
 public fun <T : Any> Matrix<T>.toMutableMatrix(): MutableMatrix<T> = MutableMatrixImpl(width, height) {x, y -> get(x, y)}
 
+
+object NonMutableMatrix{
+
+
+    fun test(){}
+    fun test1(){}
+    fun test2(){}
+    fun test3(){}
+    fun test4(){}
+    fun test5(){}
+
+}
