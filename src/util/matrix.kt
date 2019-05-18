@@ -78,9 +78,7 @@ public fun <T> MutableMatrix<T>.copyFrom(m: Matrix<T>) {
 
 public fun <T : Any> Matrix<T>.toMutableMatrix(): MutableMatrix<T> = MutableMatrixImpl(width, height) {x, y -> get(x, y)}
 
-
-object NonMutableMatrix{
-
+object Testing{
 
     fun test(){}
     fun test1(){}
