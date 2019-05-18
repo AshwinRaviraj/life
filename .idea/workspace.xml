@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="521b319e-1e7e-4926-bfff-e56091de20aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/life.iml" beforeDir="false" afterPath="$PROJECT_DIR$/life.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/matrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/test.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +19,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="matrix.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="matrix.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/matrix.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="681">
@@ -31,7 +28,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/util/test.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -45,6 +58,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/util/matrix.kt" />
+        <option value="$PROJECT_DIR$/src/util/test.kt" />
       </list>
     </option>
   </component>
@@ -164,12 +178,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558185985338</updated>
       <workItem from="1558185986658" duration="115000" />
-      <workItem from="1558186672844" duration="567000" />
+      <workItem from="1558186672844" duration="766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="682000" />
+    <option name="totallyTimeSpent" value="881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -235,6 +249,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
           <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
